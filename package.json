@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Challenge 12",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColtonBloomquist/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColtonBloomquist/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/ColtonBloomquist/employee-tracker#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "connection": "^1.4.0",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0"
+  }
+}
