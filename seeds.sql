@@ -2,17 +2,20 @@
 
 USE employees_db
 
-INSERT INTO department (name)
+INSERT INTO department (name, id)
 VALUES 
-("Sales"),
-("Engineering"),
-("Finance"),
-("Legal");
+("Sales", 2),
+("Engineering", 1),
+("Finance", 3),
+("Legal", 4);
 
-INSERT INTO role (title, salary, department_id)
-VALUES ("developer", 70000, 1);  
+INSERT INTO role (title, salary, id, department_id)
+VALUES ("Developer", 70000, 1, 1),
+("Marketing", 40000, 2, 2),
+("Operations", 50000, 3,  3),
+("Lawyer", 150000, 4, 4);  
 
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-(4, "John", "Smith", 2, null)
-(4, "John", "Smith", 2, null)
+("John", "Smith", 1, 2),
+("James", "Adams", 2, null);
